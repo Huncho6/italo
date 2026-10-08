@@ -73,6 +73,15 @@ a {
   text-decoration: none;
 }
 
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 3px;
+}
+
 button,
 input,
 textarea,
@@ -671,6 +680,48 @@ select {
   border-top-color: rgba(159, 35, 39, 0.45);
 }
 
+.app-shell--chapter-three {
+  --paper: #e9e1d2;
+  --paper-deep: #d8cdbb;
+  --ink-soft: #3b3935;
+}
+
+.app-shell--chapter-three .chapter-hero__frame {
+  border-top-color: rgba(20, 18, 15, 0.48);
+}
+
+.app-shell--chapter-three .chapter-hero__number {
+  color: rgba(20, 18, 15, 0.16);
+}
+
+.app-shell--chapter-four {
+  --paper: #e0d9ce;
+  --paper-deep: #cfc7ba;
+  --ink-soft: #363636;
+}
+
+.app-shell--chapter-four .chapter-hero__frame {
+  border-top-color: rgba(20, 18, 15, 0.58);
+}
+
+.app-shell--chapter-four .chapter-hero__number {
+  color: rgba(20, 18, 15, 0.2);
+}
+
+.app-shell--chapter-five {
+  --paper: #f7f0df;
+  --paper-deep: #e7dfce;
+  --ink-soft: #48443d;
+}
+
+.app-shell--chapter-five .chapter-hero__frame {
+  border-top-color: rgba(31, 95, 71, 0.55);
+}
+
+.app-shell--chapter-five .chapter-hero__number {
+  color: rgba(31, 95, 71, 0.16);
+}
+
 @media (max-width: 1024px) {
   .home-intro,
   .chapter-hero__content,
@@ -723,7 +774,28 @@ select {
   }
 
   .site-nav {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
     justify-content: flex-start;
+    padding-bottom: 0.2rem;
+    scrollbar-width: thin;
+  }
+
+  .site-nav a {
+    flex: 0 0 auto;
+  }
+
+  .site-nav::-webkit-scrollbar {
+    height: 0.25rem;
+  }
+
+  .site-nav::-webkit-scrollbar-thumb {
+    background: rgba(20, 18, 15, 0.28);
+  }
+
+  .site-nav::-webkit-scrollbar-track {
+    background: rgba(20, 18, 15, 0.06);
   }
 
   .home-roadmap__grid {

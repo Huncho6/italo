@@ -30,14 +30,14 @@ function Home() {
 
           <div className="home-intro__stats">
             <StatBlock
-              value="01"
-              label="Chapter implemented"
-              note="The Rise is live as the first editorial chapter."
+              value="05"
+              label="Chapters live"
+              note="The complete five-part editorial archive is ready to explore."
             />
             <StatBlock
               value="05"
-              label="Chapters planned"
-              note="The remaining chapters stay visible as future sections."
+              label="Chapters published"
+              note="Every chapter follows the same long-form editorial system."
             />
             <StatBlock
               value="90s"

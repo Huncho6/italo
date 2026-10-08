@@ -16,19 +16,19 @@ export const chapterRoadmap = [
   {
     number: "03",
     title: "THE CRACKS",
-    slug: "coming-soon-3",
-    status: "coming-soon",
+    slug: "chapter-3",
+    status: "implemented",
   },
   {
     number: "04",
     title: "THE FALL",
-    slug: "coming-soon-4",
-    status: "coming-soon",
+    slug: "chapter-4",
+    status: "implemented",
   },
   {
     number: "05",
     title: "THE MODERN ERA",
-    slug: "coming-soon-5",
-    status: "coming-soon",
+    slug: "chapter-5",
+    status: "implemented",
   },
 ];

@@ -22,6 +22,7 @@ function ImagePlaceholder({
             alt={alt}
             loading="lazy"
             decoding="async"
+            referrerPolicy="no-referrer"
           />
         ) : (
           <div className="image-placeholder__ghost" aria-label={alt}>
